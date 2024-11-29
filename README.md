@@ -2,3 +2,4 @@
 remove spaces in fastq headers that can cause issues with STAR mapping followed by UMI duplicate removal
 
 Usage: python remove_spaces.py input.fastq(.gz) [output.fastq.gz]
+Requirements: pigz installed in your environment
